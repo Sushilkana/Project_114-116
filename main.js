@@ -18,10 +18,6 @@ function setup(){
 function draw(){
     image(video,0,0,900,500);
     image(Mustache,Nose_X,Nose_Y,110,30);
-
-    // if (Mustache_Shot == true){
-    //     Mustache_Shot();
-    // }
 }
 
 function Save_Image(){
@@ -43,7 +39,7 @@ function gotposes(result){
 }
 
 function Mustache_Shot(){
-     var Mustache_Shot = true;
+    var Mustache_Shot = true;
     image(Mustache,Nose_X,Nose_Y,110,40);
 }
 
